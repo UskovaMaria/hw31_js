@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Coffee Machine</h2>
+        </div>
+        <div class="info">
+            <p id="info"></p>
+        </div>
+        <div class="power">
+            <button onclick="togglePower()">Toggle Power</button>
+            <button onclick="addWater(1000)">Add 1000ml of Water</button>
+        </div>
+        <div class="coffee">
+            <button class="click" onclick="makeCoffee('espresso')">Espresso</button>
+            <button class="click" onclick="makeCoffee('americano')">Americano</button>
+            <button class="click" onclick="makeCoffee('latte')">Latte</button>
+            <button class="click" onclick="makeCoffee('cappuccino')">Cappuccino</button>
+        </div>
+        <div class="image"><img id="coffeeImage" src="" alt="Coffee Cup Image"></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
